@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <style>
+    
+    body{
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-image: linear-gradient(45deg, darkblue, white );
+
+
+    }
+
+    .telalogin{
+background-color: rgba(0, 0, 0, 0.7);
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+padding:100px;
+border-radius: 25px;
+color:white;
+        }
+
+.usuario{
+padding: 15px;
+border:none;
+outline:none;
+font-size: 15px;
+
+}
+
+
+.senha{
+padding: 15px;
+border:none;
+outline:none;
+font-size: 15px;
+
+}
+
+.botaoenviar{
+background-color: rgb(228, 226, 100);
+border-radius:25px;
+border:none;
+padding:20px;
+width:100%;
+color: rgb(27, 26, 26);
+font-size: 15px;
+
+}
+.botaoenviar:hover{
+background-color:rgb(173, 171, 39);
+cursor:pointer;
+}
+
+    </style>
+</head>
+<body>
+    <div class="telalogin">
+        <h1>Login</h1>
+        <input type="text" placeholder="Usuário" class="usuario">
+        <br><br>
+        <input type="password" placeholder="Senha" class="senha">
+        <br><br>
+        <button class="botaoenviar">Enviar</button>
+    </div>
+</body>
+<script>
+window.alert('Registrado com sucesso!')
+</script>
+</html>
